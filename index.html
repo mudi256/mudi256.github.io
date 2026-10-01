@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Today's Knot</title>
+  <title>mudi256 — Apps</title>
   <style>
     body {
       margin: 0;
@@ -12,22 +12,48 @@
       background: linear-gradient(160deg, #ffe8d8, #f6eeff 48%, #fff6ee);
       min-height: 100vh;
     }
-    main { max-width: 640px; margin: 0 auto; padding: 56px 22px; }
-    h1 { letter-spacing: -0.03em; }
-    p { color: #7a6e78; line-height: 1.5; }
+    main { max-width: 640px; margin: 0 auto; padding: 56px 22px 80px; }
+    h1 { letter-spacing: -0.03em; margin: 0 0 8px; }
+    .lead { color: #7a6e78; line-height: 1.5; margin-bottom: 36px; }
     a { color: #ff5d45; }
-    ul { line-height: 1.8; }
+    .app {
+      background: rgba(255, 251, 247, 0.86);
+      border: 1px solid #fff;
+      border-radius: 18px;
+      padding: 22px 24px;
+      margin-bottom: 14px;
+      box-shadow: 0 12px 28px rgba(36, 28, 40, 0.06);
+    }
+    .app h2 { margin: 0 0 6px; font-size: 1.2rem; }
+    .app p { margin: 0 0 12px; color: #7a6e78; line-height: 1.45; font-size: 0.95rem; }
+    .app ul { margin: 0; padding-left: 1.15rem; line-height: 1.8; }
+    .footer { margin-top: 28px; color: #7a6e78; font-size: 0.9rem; }
   </style>
 </head>
 <body>
   <main>
-    <h1>Today's Knot</h1>
-    <p>A once-a-day arrow puzzle. Untangle the knot, keep a streak, practice extra boards whenever you want.</p>
-    <ul>
-      <li><a href="privacy.html">Privacy policy</a></li>
-      <li><a href="mailto:desanttaylor2256@gmail.com">Support</a></li>
-      <li><a href="app-ads.txt">app-ads.txt</a></li>
-    </ul>
+    <h1>Apps</h1>
+    <p class="lead">Privacy policies and support for apps by mudi256.</p>
+
+    <section class="app">
+      <h2>Today's Knot</h2>
+      <p>A once-a-day arrow puzzle. Untangle the knot, keep a streak, practice extra boards whenever you want.</p>
+      <ul>
+        <li><a href="todays-knot/privacy.html">Privacy policy</a></li>
+        <li><a href="mailto:desanttaylor2256@gmail.com">Support</a></li>
+      </ul>
+    </section>
+
+    <section class="app">
+      <h2>DocScan</h2>
+      <p>PDF tools and QR / barcode scanning — scan documents, merge or split PDFs, and create codes. Files stay on your device.</p>
+      <ul>
+        <li><a href="docscan/privacy.html">Privacy policy</a></li>
+        <li><a href="mailto:desanttaylor2256@gmail.com">Support</a></li>
+      </ul>
+    </section>
+
+    <p class="footer"><a href="app-ads.txt">app-ads.txt</a></p>
   </main>
 </body>
 </html>

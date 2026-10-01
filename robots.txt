@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
 Allow: /app-ads.txt
+Allow: /todays-knot/
+Allow: /docscan/
